@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrasi Akun Baru</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-card" style="max-width: 350px; margin: 80px auto; padding: 20px; border: 1px solid #cbd5e1; border-radius: 8px;">
+        <h2 style="text-align: center; border: none; padding: 0;">Daftar Akun</h2>
+        
+        <form id="registerForm" onsubmit="event.preventDefault(); registerProses();">
+            <div style="margin-bottom: 12px;">
+                <label>Username Baru:</label>
+                <input type="text" id="regUsername" required style="width: 100%; padding: 8px; margin-top: 4px;">
+            </div>
+            
+            <div style="margin-bottom: 15px;">
+                <label>Password Baru:</label>
+                <input type="password" id="regPassword" required style="width: 100%; padding: 8px; margin-top: 4px;">
+            </div>
+            
+            <button type="submit" style="width: 100%; padding: 10px; background: #2f855a; color: white; border: none; border-radius: 4px; cursor: pointer;">DAFTAR SEKARANG</button>
+        </form>
+        
+        <p style="margin-top: 15px; text-align: center; font-size: 9pt;">Sudah punya akun? <a href="index.html">Login di sini</a></p>
+        
+        <div id="message"></div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

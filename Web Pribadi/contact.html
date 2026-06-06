@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="id">
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Kontak Kami &mdash; Tugas LKPD Informatika</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	
+	<!-- Hubungkan ke Aset CSS Bawaan -->
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 text-center logo-wrap">
+					<div id="fh5co-logo"><a href="index.html">Ruang Kreatif<span>.</span></a></div>
+				</div>
+				<div class="col-xs-12 text-center menu-1 menu-wrap">
+					<ul>
+						<li><a href="index.html">Beranda</a></li>
+						<li class="active"><a href="contact.html">Kontak</a></li>
+						
+						<!-- Sinkronisasi Elemen Status Login Sesuai LKPD Halaman 3 & 4 -->
+						<li style="margin-left: 15px; font-weight: bold; color: #f39c12;"><span id="userInfo">Belum login</span></li>
+						<li id="authArea" style="display: inline-block; margin-left: 10px;">
+							<a href="login/index.html" style="background: #e74c3c; padding: 5px 12px; border-radius: 4px; color: white !important;">LOGIN</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Header Banner -->
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<h1>Hubungi Kami</h1>
+							<h2>Silakan tinggalkan pesan atau kunjungi lokasi sekolah kami</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Section Kontak & Peta Google Maps Berdampingan -->
+	<div id="fh5co-contact" class="fh5co-section animate-box">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Kirim Pesan Interaktif</h2>
+					<p>Gunakan formulir di bawah ini untuk mensimulasikan pengiriman pesan, atau lihat peta di sisi kiri untuk memantau titik koordinat instansi sekolah kami secara langsung.</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<!-- Sisi Kiri: Integrasi Google Maps SMAN 8 Yogyakarta -->
+				<div class="col-md-6 col-sm-6 animate-box">
+					<div style="border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px;">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1m2!1m1d3953.036611391696!2d110.3922376757659!3d-7.796538477382218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5763ca7b5217%3A0x6bcfd3eb470ee693!2sSMA%20Negeri%208%20Yogyakarta!5e0!3m2!1sid!2sid!4v1716380000000!5m2!1sid!2sid" width="100%" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+
+				<!-- Sisi Kanan: Formulir Kontak Bahasa Indonesia -->
+				<div class="col-md-6 col-sm-6 animate-box">
+					<form action="#" id="form-wrap" onsubmit="alert('Pesan Anda berhasil disimulasikan terkirim!'); return false;">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="name">Nama Lengkap</label>
+								<input type="text" class="form-control" id="name" required>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="email">Alamat Email</label>
+								<input type="email" class="form-control" id="email" required>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message">Isi Pesan</label>
+								<textarea name="message" id="message" cols="30" rows="8" class="form-control" required></textarea>
+							</div>
+						</div>
+						<div class="row form-group">
+							<div class="col-md-12">
+								<input type="submit" class="btn btn-primary btn-outline btn-lg" value="Kirim Pesan">
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer Halaman -->
+	<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2026 Portofolio Pribadi. Tugas Informatika X E7.</small> 
+						<small class="block">SMA Negeri 8 Yogyakarta</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- Pemanggilan Pustaka JavaScript Bawaan -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- WAJIB: Membaca status login REST API agar tersinkronisasi di semua halaman -->
+	<script src="login/js/welcome.js"></script>
+
+	</body>
+</html>
